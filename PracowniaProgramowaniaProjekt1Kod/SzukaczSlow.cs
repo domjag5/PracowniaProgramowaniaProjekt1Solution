@@ -14,6 +14,7 @@ namespace PracowniaProgramowaniaProjekt1
         }
         public List<string> znajdz_jezyki_zawierajace_slowo(string slowo)
         {
+            // strumienie / linq
             List<string> znalezione_jezyki =
             lista_slownikow
             .Where(x => x.slowa.Contains(slowo))
